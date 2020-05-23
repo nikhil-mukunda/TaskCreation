@@ -454,7 +454,7 @@ You can define the following units of measure:
 ## Stage and Activate Tasks
 After you create your XML, you perform the following actions:
 1. Stage the XML on the SAP Health for Patient Engagement platform. See the [`PUT /MeasurementStagings` endpoint](https://nikhil-mukunda.github.io/APIDocs/#/Upload%20the%20tasks%20to%20staging%20area/StageMeasurement).
-2. Activate the tasks so that the patient can use these tasks. See the following [`PUT /MeasurementStagings` endpoint](https://nikhil-mukunda.github.io/APIDocs/#/Activate%20the%20tasks/ActivateMeasurement). 
+2. Activate the tasks so that the patient can use these tasks. See the [`PUT /MeasurementStagings` endpoint](https://nikhil-mukunda.github.io/APIDocs/#/Activate%20the%20tasks/ActivateMeasurement). 
 
 After you implement this logic in the mobile app of the patient, the user interface for the tasks you have defined is automatically created for the physician.
 The physician can then monitor the patient's health as the patient performs tasks. 
