@@ -52,13 +52,15 @@ For every API call you make to the SAP Health for Patient Engagement system, you
 
 
 ## Overview
-### Introduction
-This guide is intended primarily for developers. It is a supplement to our [technical documentation](https://developers.booking.com/api/technical.html), which should be consulted for more detailed information on all endpoints. However, we recommend that you read this documentation before you look at the technical documentation. 
 
 ### Use
 You create tasks that a patient performs for a particular condition. These tasks can then be monitored by the patient's physician. For example, for condition insomnia, you create tasks for the patient to enter hours of sleep, average heart rate, and type of sleep every day. 
 
 Note that you can define logic in your mobile app so that all of this information is captured from the patient's health device such as activity trackers. This helps the patient to avoid manually entering data into your app. 
+
+### About this guide
+
+This guide is intended primarily for developers. It is a supplement to our [technical documentation](https://nikhil-mukunda.github.io/APIDocs/), which should be consulted for more detailed information on all endpoints. However, we recommend that you read this documentation before you look at the technical documentation. 
 
 ### Prerequisites
 
@@ -432,7 +434,7 @@ Addresses the numerical task requirements
 
 ## Specify Units of Measure
 
-You can define units of measure using this [endpoint](Url.com).
+You can define units of measure using the [`POST /UnitofMeasure` endpoint](https://nikhil-mukunda.github.io/APIDocs/#/Post%20Units%20of%20Measure/UnitsofMeasure).
 
 ### Example
 You can define the following units of measure:
@@ -451,8 +453,8 @@ You can define the following units of measure:
 
 ## Stage and Activate Tasks
 After you create your XML, you perform the following actions:
-1. Stage the XML on the SAP Health for Patient Engagement platform. See the following endpoint.
-2. Activate the tasks so that the patient can use these tasks. See the following endpoint. 
+1. Stage the XML on the SAP Health for Patient Engagement platform. See the [`PUT /MeasurementStagings` endpoint](https://nikhil-mukunda.github.io/APIDocs/#/Upload%20the%20tasks%20to%20staging%20area/StageMeasurement).
+2. Activate the tasks so that the patient can use these tasks. See the following [`PUT /MeasurementStagings` endpoint](https://nikhil-mukunda.github.io/APIDocs/#/Activate%20the%20tasks/ActivateMeasurement). 
 
 After you implement this logic in the mobile app of the patient, the user interface for the tasks you have defined is automatically created for the physician.
 The physician can then monitor the patient's health as the patient performs tasks. 
