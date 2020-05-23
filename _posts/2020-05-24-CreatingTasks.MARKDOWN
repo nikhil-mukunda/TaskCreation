@@ -65,7 +65,7 @@ This guide is intended primarily for developers. It is a supplement to our [tech
 ### Prerequisites
 
 
-* You have a basic understanding of software development and REST APIs. 
+* You have a basic understanding of software development and RESTful APIs. 
 * You have a basic understanding of SAP Health for Patient Engagement. For more information, see [About SAP Health for Patient Engagement](#about-sap-health-for-patient-engagement).
 * You have the bearer token for authentication. For more information, see [Authentication](#authentication). 
 
