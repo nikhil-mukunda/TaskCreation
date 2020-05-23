@@ -3,7 +3,7 @@ layout: page
 title:  "Creating Tasks using SAP Health for Patient Engagement"
 date:   2020-05-23 13:14:19 +0200
 categories: jekyll update
-permalink: "SAPHealthforPatientEngagementTaskCreation"
+permalink: "sampledocumentation"
 ---
 ## Table of Contents
 
