@@ -18,6 +18,6 @@ and worked with DITA Technology to deliver documentation. I have also created vi
 
 I am an avid public speaker, continually honing my leadership skills at Toastmasters International. I love traveling and photography, the charm of exploring new places, interacting with different people, and being exposed to their stories.
 
-I look forward to hearing from you
+I look forward to hearing from you.
 
 Email: nikhilmukunda@gmail.com
