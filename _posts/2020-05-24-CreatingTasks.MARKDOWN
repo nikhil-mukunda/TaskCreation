@@ -27,7 +27,7 @@ SAP Health for Patient Engagement is a cloud solution that enables physicians to
 
 The solution provides a user interface for physicians to monitor the health of patients, and a set of APIs that you can use in your patient's mobile app to send health information such as average heart rate to the physician. 
 
-Go to [https://sapvideoa35699dc5.hana.ondemand.com/?entry_id=1_6c5a4hlc](https://sapvideoa35699dc5.hana.ondemand.com/?entry_id=1_6c5a4hlc) a quick overview video.
+Click [here](https://sapvideoa35699dc5.hana.ondemand.com/?entry_id=1_6c5a4hlc) a quick overview video.
 
 
 ## Authentication
