@@ -37,7 +37,7 @@ The APIs for SAP Health for Patient Engagement use the OAuth 2.0 standard authen
 ### Procedure
 
 1. Go to [https://www.sap.com/hep](https://www.sap.com/hep) and login with your user name and password. In the *Authentication* tab page, note down the *client_id* and *client_secret*. Do not divulge these credentials to any external party you do not trust.  
-2. Make the following **API call** with the _client_id_ and _client_secret_.
+2. Make the following [API call](https://nikhil-mukunda.github.io/SME/#/Obtain%20bearer%20token/GetBearer) with the _client_id_ and _client_secret_.
 3. Make a note of the response you receive. The response for the API call should look like this:
 ```
 {
