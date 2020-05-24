@@ -31,7 +31,7 @@ Click [here](https://sapvideoa35699dc5.hana.ondemand.com/?entry_id=1_6c5a4hlc) a
 
 
 ## Authentication
-The APIs for SAP Health for Patient Engagement uses the OAuth 2.0 standard authentication. See [https://oauth.net/2/](https://oauth.net/2/)  for any additional information.
+The APIs for SAP Health for Patient Engagement use the OAuth 2.0 standard authentication. See [https://oauth.net/2/](https://oauth.net/2/)  for any additional information.
 
 
 ### Procedure
@@ -54,7 +54,7 @@ For every API call you make to the SAP Health for Patient Engagement system, you
 ## Overview
 
 ### Use
-You create tasks that a patient performs for a particular condition. These tasks can then be monitored by the patient's physician. For example, for condition insomnia, you create tasks for the patient to enter hours of sleep, average heart rate, and type of sleep every day. 
+You create tasks that a patient performs for a particular condition. These tasks can then be monitored by the patient's physician. For example, for condition insomnia, you create tasks for the patient to enter hours of sleep, average heart rate, and type of sleep every day. The physician can then monitor these tasks and decide on a course of treatment for the patient. 
 
 Note that you can define logic in your mobile app so that all of this information is captured from the patient's health device such as activity trackers. This helps the patient to avoid manually entering data into your app. 
 
@@ -89,7 +89,7 @@ Structure your requirements based on the following elements:
 1. The condition of the patient and the attributes: 
 *  Unique Identifier (ID) for the condition 
 *  Description of the condition 
-*  Translations of the title and description in various languages
+*  Translations of the title and description in required languages
     
 2. Tasks with numerical values:
   *   Title of the task
@@ -107,7 +107,7 @@ Structure your requirements based on the following elements:
  *  Fixed values & IDs of the tasks
  *  Order of the values in the user interface    
  *  Multiple select or single select
- *  Translation of the texts into Spanish, French, and German
+ *  Translation of the texts in required languages
 
 #### Example
 
@@ -144,7 +144,7 @@ The following depicts the structure of the requirement:
 
 |ID <br/>  Title|Multiple <br/> Select |Fixed Values: <br/>ID<br/> Order <br/> Title|
 |--|--|--|--|
-|ID: SLEEP_TYPEOFSLEEP <br/>  Title: <br/> EN: Type of Sleep <br/> FR: Type de sommeil <br/>ES: Type de sommeil | No (value:1) | ID: TYPEOFSLEEP_VALUE_RESTLESSSLEEP <br> Order: 1 <br> Title: <br/> EN: Restless Sleep <br/>  FR: Sommeil agité <br/> ES: Sueño inquieto <br/><br/> ID: TYPEOFSLEEP_VALUE_GOODSLEEP <br> Order: 2<br/>  Title: <br/> EN: Good Sleep <br/> FR: Bien sommeil <br/>ES: Buen sueño <br/><br/> ID: TYPEOFSLEEP_VALUE_DEEPSLEEP <br> Order: 3<br/>  Title: <br/> EN: Deep Sleep <br/> FR: Sommeil profound <br/>ES: Sueño profundo
+|ID: SLEEP_TYPEOFSLEEP <br/>  Title: <br/> EN: Type of Sleep <br/> FR: Type de sommeil <br/>ES: Type de sommeil | No (value: 1) | ID: TYPEOFSLEEP_VALUE_RESTLESSSLEEP <br> Order: 1 <br> Title: <br/> EN: Restless Sleep <br/>  FR: Sommeil agité <br/> ES: Sueño inquieto <br/><br/> ID: TYPEOFSLEEP_VALUE_GOODSLEEP <br> Order: 2<br/>  Title: <br/> EN: Good Sleep <br/> FR: Bien sommeil <br/>ES: Buen sueño <br/><br/> ID: TYPEOFSLEEP_VALUE_DEEPSLEEP <br> Order: 3<br/>  Title: <br/> EN: Deep Sleep <br/> FR: Sommeil profound <br/>ES: Sueño profundo
 |ID: SLEEP_ENVIRONMENT <br/>  Title: <br/> EN: Sleep Environment <br/> FR: Environnement <br/>ES: Ambiente | Yes (value: 2) | ID: ENVIRONMENT_VALUE_HUMID  <br> Order: 1 <br> Title: <br/> EN: Humid <br/>  FR: Humide <br/> ES: Húmedo <br/><br/> ID: ENVIRONMENT_VALUE_COLD <br> Order: 2<br/>  Title: <br/> EN: Cold <br/> FR: Du froid <br/>ES: Frío <br/><br/> ID: ENVIRONMENT_VALUE_HOT <br> Order: 3<br/>  Title: <br/> EN: Hot <br/> FR: Chaud <br/>ES: Caliente <br/><br/> ID: ENVIRONMENT_VALUE_QUIET <br> Order: 4<br/>  Title: <br/> EN: Quiet <br/> FR: Silencieux <br/>ES: Tranquilo<br/><br/> ID: ENVIRONMENT_VALUE_NOISY <br> Order: 5<br/>  Title: <br/> EN: Noisy <br/> FR: Bruyant<br/>ES: Ruidoso
 
 ### Create an XML for your requirement
