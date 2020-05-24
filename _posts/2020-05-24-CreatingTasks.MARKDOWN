@@ -434,7 +434,7 @@ Addresses the numerical task requirements
 
 ## Specify Units of Measure
 
-You can define units of measure using the [`POST /UnitofMeasure` endpoint](https://nikhil-mukunda.github.io/APIDocs/#/Post%20Units%20of%20Measure/UnitsofMeasure).
+You can define units of measure using the [`POST /UnitofMeasure` endpoint](https://nikhil-mukunda.github.io/APIDocs/#/Specify%20Units%20of%20Measure/UnitsofMeasure).
 
 ### Example
 You can define the following units of measure:
