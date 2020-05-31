@@ -134,7 +134,7 @@ The following depicts the requirement structure of the example:
         *  French: Permet de vérifier le comportement du sommeil et les attributs associés
         *   Spanish: Le permite comprobar el comportamiento del sueño y atributos asociados
             
-2. Tasks that have numerical values
+2. Tasks that have numerical values:
 
 |Title and ID|UoM|Precision, Scale|Lower Normal, Upper Normal| Hyper, Hypo|
 |--|--|--|--|--|--| 
