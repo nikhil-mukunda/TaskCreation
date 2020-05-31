@@ -141,7 +141,6 @@ The following depicts the requirement structure of the example:
 | ID: SLEEP_SLEEPAMOUNT  <br/> Title:  <br/> EN: Sleep Amount <br/> FR: Somme du sommeil   <br/>     ES: Cantidad de sueño | *SLEEPAMOUNT_STDUNIT_HR* <br/> *SLEEPAMOUNT_STDUNIT_MIN* <br/> Default: *SLEEPAMOUNT_STDUNIT_HR* | precision: 4 <br/> scale: 1 |  Upper Normal Value: 9 <br/>Title:<br/>EN: Upper Normal<br/>FR: Valeur normale supérieure<br/>ES: Valor normal superior<br/><br/>Lower Normal Value: 6 <br/>  Title: <br/>EN: Lower Normal Value<br/>FR: Valeur normale inférieure<br/> ES: Valor normal inferio |Hyper Value: -<br/>Title: -<br/><br/> Hypo Value: 2<br/> Title:<br/>EN: Hypo <br/>FR: Hypo <br/>ES: Hipo | 
 | ID: SLEEP_HEARTRATE  <br/> Title:  <br/> EN: Heart Rate <br/> FR: Rythme Cardiaque   <br/>ES: Ritmo Cardiaco | *HEARTRATE_STDUNIT_BPM* <br/> Default: *HEARTRATE_STDUNIT_BPM* | precision: 3 <br/> scale: 0 |  Upper Normal Value: 80 <br/>Title:<br/>EN: Upper Normal<br/>FR: Valeur normale supérieure<br/>ES: Valor normal superior<br/><br/>Lower Normal Value: 60 <br/>  Title: <br/> EN: Lower Normal Value<br/>FR: Valeur normale inférieure<br/> ES: Valor normal inferio |Hyper Value: 100<br/> Title: <br/> EN: Hyper<br/>FR: Hyper<br/>ES: Hiper<br/><br/>Hypo Value: 50<br/> Title:<br/>EN: Hypo <br/>FR: Hypo <br/>ES: Hipo 
 
-
 3. Tasks with fixed values:
 
 |ID <br/>  Title|Multiple <br/> Select |Fixed Values: <br/>ID<br/> Order <br/> Title|
