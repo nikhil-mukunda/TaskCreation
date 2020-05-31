@@ -121,8 +121,7 @@ It is also for patients who are Spanish and French.
 
 The following depicts the requirement structure of the example:
 
-1. The condition of the patient and the attributes:
-    
+1. The condition of the patient and the attributes:   
     * ID:  *condition_insomnia*
      *  Title:
         *   English: Insomnia  
