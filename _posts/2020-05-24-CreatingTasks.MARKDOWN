@@ -24,7 +24,7 @@ permalink: "sampledocumentation"
 
 ## About SAP Health for Patient Engagement
 
-SAP Health for Patient Engagement is a cloud solution that enables physicians to monitor the health of patients with specific health conditions.. For example, if a patient has health condition insomnia, the physician can monitor the patient's sleep and heart rate. The ability to constantly monitor a patient's health helps the physician in taking the right course of action at the right time. 
+SAP Health for Patient Engagement is a cloud solution that enables physicians to monitor the health of patients with specific health conditions. For example, if a patient has health condition insomnia, the physician can monitor the patient's sleep and heart rate. The ability to constantly monitor a patient's health helps the physician in taking the right course of action at the right time. 
 
 The solution includes a user interface that enables physicians to monitor the health of their patients, and a set of APIs that you can use in your patient's mobile app to send health information such as average heart rate to the physician. 
 
