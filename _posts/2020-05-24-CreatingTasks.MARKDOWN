@@ -104,11 +104,11 @@ Structure your requirements based on the following elements:
   *   Number of fractional digits you require (Scale)
 
 3. Tasks with fixed values:
- * Title & ID of the task 
- *  Fixed values & IDs of the tasks
- *  Order of the values in the user interface    
- *  Multiple select or single select
- *  Translation of the texts in required languages
+  * Title & ID of the task 
+  *  Fixed values & IDs of the tasks
+  *  Order of the values in the user interface    
+  *  Multiple select or single select
+  *  Translation of the texts in required languages
 
 #### Example
 
