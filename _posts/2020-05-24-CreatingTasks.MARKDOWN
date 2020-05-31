@@ -5,6 +5,7 @@ date:   2020-05-23 13:14:19 +0200
 categories: jekyll update
 permalink: "sampledocumentation"
 ---
+
 ## Table of Contents
 
 - [About SAP Health for Patient Engagement](#about-sap-health-for-patient-engagement)
@@ -23,11 +24,11 @@ permalink: "sampledocumentation"
 
 ## About SAP Health for Patient Engagement
 
-SAP Health for Patient Engagement is a cloud solution that enables physicians to monitor a patient's health for a specific condition. For example, if a patient has condition insomnia, the physician can monitor the patient's sleep and heart rate. The ability to constantly monitor a patient's health helps the physician in taking the right course of action at the right time. 
+SAP Health for Patient Engagement is a cloud solution that enables physicians to monitor the health of patients with specific health conditions.. For example, if a patient has health condition insomnia, the physician can monitor the patient's sleep and heart rate. The ability to constantly monitor a patient's health helps the physician in taking the right course of action at the right time. 
 
-The solution provides a user interface for physicians to monitor the health of patients, and a set of APIs that you can use in your patient's mobile app to send health information such as average heart rate to the physician. 
+The solution includes a user interface that enables physicians to monitor the health of their patients, and a set of APIs that you can use in your patient's mobile app to send health information such as average heart rate to the physician. 
 
-Click [here](https://sapvideoa35699dc5.hana.ondemand.com/?entry_id=1_6c5a4hlc) a quick overview video.
+Click [here](https://sapvideoa35699dc5.hana.ondemand.com/?entry_id=1_6c5a4hlc) a video overview.
 
 
 ## Authentication
@@ -36,7 +37,7 @@ The APIs for SAP Health for Patient Engagement use the OAuth 2.0 standard authen
 
 ### Procedure
 
-1. Go to [https://www.sap.com/hep](https://www.sap.com/hep) and login with your user name and password. In the *Authentication* tab page, note down the *client_id* and *client_secret*. Do not divulge these credentials to any external party you do not trust.  
+1. Go to [https://www.sap.com/hep](https://www.sap.com/hep) and log in with your user name and password. In the *Authentication* tab page, note down the *client_id* and *client_secret*. Do not share these credentials with any external party you do not trust.  
 2. Make the following [API call](https://nikhil-mukunda.github.io/SME/#/Obtain%20bearer%20token/GetBearer) with the _client_id_ and _client_secret_.
 3. Make a note of the response you receive. The response for the API call should look like this:
 ```
@@ -54,7 +55,7 @@ For every API call you make to the SAP Health for Patient Engagement system, you
 ## Overview
 
 ### Use
-You create tasks that a patient performs for a particular condition. These tasks can then be monitored by the patient's physician. For example, for condition insomnia, you create tasks for the patient to enter hours of sleep, average heart rate, and type of sleep every day. The physician can then monitor these tasks and decide on a course of treatment for the patient. 
+You create tasks that a patient performs for a particular condition. These tasks can then be monitored by the patient's physician. For example, for the condition insomnia, you create tasks for the patient to enter hours of sleep, average heart rate, and type of sleep every day. The physician can then monitor these tasks and decide on a course of treatment for the patient. 
 
 Note that you can define logic in your mobile app so that all of this information is captured from the patient's health device such as activity trackers. This helps the patient to avoid manually entering data into your app. 
 
@@ -111,14 +112,14 @@ Structure your requirements based on the following elements:
 
 #### Example
 
-For patients with a condition insomnia, the following tasks are created: 
+For patients with the condition insomnia, the following tasks are created: 
 * Amount of Sleep
  * Average Heart Rate
  * Type of Sleep  
 *  Environment
 It is also for patients who are Spanish and French.     
 
-The following depicts the structure of the requirement:
+The following depicts the requirement structure of the example:
 
 1. The condition of the patient and the attributes:
     
@@ -140,7 +141,7 @@ The following depicts the structure of the requirement:
 | ID: SLEEP_SLEEPAMOUNT  <br/> Title:  <br/> EN: Sleep Amount <br/> FR: Somme du sommeil   <br/>     ES: Cantidad de sueño | *SLEEPAMOUNT_STDUNIT_HR* <br/> *SLEEPAMOUNT_STDUNIT_MIN* <br/> Default: *SLEEPAMOUNT_STDUNIT_HR* | precision: 4 <br/> scale: 1 |  Upper Normal Value: 9 <br/>Title:<br/>EN: Upper Normal<br/>FR: Valeur normale supérieure<br/>ES: Valor normal superior<br/><br/>Lower Normal Value: 6 <br/>  Title: <br/>EN: Lower Normal Value<br/>FR: Valeur normale inférieure<br/> ES: Valor normal inferio |Hyper Value: -<br/>Title: -<br/><br/> Hypo Value: 2<br/> Title:<br/>EN: Hypo <br/>FR: Hypo <br/>ES: Hipo | 
 | ID: SLEEP_HEARTRATE  <br/> Title:  <br/> EN: Heart Rate <br/> FR: Rythme Cardiaque   <br/>ES: Ritmo Cardiaco | *HEARTRATE_STDUNIT_BPM* <br/> Default: *HEARTRATE_STDUNIT_BPM* | precision: 3 <br/> scale: 0 |  Upper Normal Value: 80 <br/>Title:<br/>EN: Upper Normal<br/>FR: Valeur normale supérieure<br/>ES: Valor normal superior<br/><br/>Lower Normal Value: 60 <br/>  Title: <br/> EN: Lower Normal Value<br/>FR: Valeur normale inférieure<br/> ES: Valor normal inferio |Hyper Value: 100<br/> Title: <br/> EN: Hyper<br/>FR: Hyper<br/>ES: Hiper<br/><br/>Hypo Value: 50<br/> Title:<br/>EN: Hypo <br/>FR: Hypo <br/>ES: Hipo 
 
-3. Sub tasks with fixed values:
+3. Tasks with fixed values:
 
 |ID <br/>  Title|Multiple <br/> Select |Fixed Values: <br/>ID<br/> Order <br/> Title|
 |--|--|--|--|
@@ -299,7 +300,7 @@ The following section contains XML snippets and the requirements addressed by th
   <description language="FR">Permet de vérifier le comportement du sommeil et les attributs associés.</description>
   <description language="ES">Le permite comprobar el comportamiento del sueño y atributos asociados.</description>
 ``` 
-Addresses the following requirements:
+This XML snippet addresses the following requirements:
 *   ID and title of the condition
 *   Description of the condition
 *   Translation of the title and the description
@@ -370,7 +371,7 @@ Addresses the following requirements:
     </quantityMeasurementType>
   </quantityMeasurementTypes>
   ```
-Addresses the numerical task requirements
+This XML snippet addresses the numerical task requirements.
 #### XML Snippet  
 ```
  <categoryMeasurementTypes>
@@ -430,7 +431,7 @@ Addresses the numerical task requirements
     </categoryMeasurementType>
   </categoryMeasurementTypes>
   ```
- Addresses the fixed value task requirements
+ This XML snippet addresses the fixed value task requirements.
 
 ## Specify Units of Measure
 
