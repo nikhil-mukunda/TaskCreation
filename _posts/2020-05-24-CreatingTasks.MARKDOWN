@@ -55,7 +55,7 @@ For every API call you make to the SAP Health for Patient Engagement system, you
 ## Overview
 
 ### Use
-You create tasks that a patient performs for a particular condition. These tasks can then be monitored by the patient's physician. For example, for the condition insomnia, you create tasks for the patient to enter hours of sleep, average heart rate, and type of sleep every day. The physician can then monitor these tasks and decide on a course of treatment for the patient. 
+You create tasks that a patient performs for a particular condition. The patient's physician can then monitor these tasks. For example, for the condition insomnia, you create tasks for the patient to enter hours of sleep, average heart rate, and type of sleep every day. The physician can then monitor these tasks and decide on a course of treatment for the patient. 
 
 Note that you can define logic in your mobile app so that all of this information is captured from the patient's health device such as activity trackers. This helps the patient to avoid manually entering data into your app. 
 
