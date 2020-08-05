@@ -9,6 +9,7 @@ permalink: "sampledocumentation"
 ## Table of Contents
 
 - [About SAP Health for Patient Engagement](#about-sap-health-for-patient-engagement)
+- [About this Guide](#about-this-guide)
 - [Authentication](#authentication)
 - [Overview](#overview)
 - [Structure and Build your task](#structure-and-build-your-tasks)
@@ -28,8 +29,11 @@ SAP Health for Patient Engagement is a cloud solution that enables physicians to
 
 The solution includes a user interface that enables physicians to monitor the health of their patients, and a set of APIs that you can use in your patient's mobile app to send health information such as average heart rate to the physician. 
 
-Click [here](https://sapvideoa35699dc5.hana.ondemand.com/?entry_id=1_6c5a4hlc) a video overview.
+Click [here](https://sapvideoa35699dc5.hana.ondemand.com/?entry_id=1_6c5a4hlc) for a video overview.
 
+## About this guide
+
+This guide is intended primarily for developers. It is a supplement to our [technical documentation](https://nikhil-mukunda.github.io/APIDocs/), which should be consulted for more detailed information on all endpoints. However, we recommend that you read this documentation before you look at the technical documentation. 
 
 ## Authentication
 The APIs for SAP Health for Patient Engagement use the OAuth 2.0 standard authentication. See [https://oauth.net/2/](https://oauth.net/2/)  for any additional information.
@@ -59,16 +63,13 @@ You create tasks that a patient performs for a particular condition. The patient
 
 Note that you can define logic in your mobile app so that all of this information is captured from the patient's health device such as activity trackers. This helps the patient to avoid manually entering data into your app. 
 
-### About this guide
-
-This guide is intended primarily for developers. It is a supplement to our [technical documentation](https://nikhil-mukunda.github.io/APIDocs/), which should be consulted for more detailed information on all endpoints. However, we recommend that you read this documentation before you look at the technical documentation. 
-
 ### Prerequisites
 
 
 * You have a basic understanding of software development and RESTful APIs. 
 * You have a basic understanding of SAP Health for Patient Engagement. For more information, see [About SAP Health for Patient Engagement](#about-sap-health-for-patient-engagement).
 * You have the bearer token for authentication. For more information, see [Authentication](#authentication). 
+* You have the requirements from physicians or pharmaceutical companies to create tasks. 
 
 ### Procedure
 
